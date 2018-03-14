@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+body, html {
+  font: verdana;
+}
+
+div {
+  border: 1px solid black;
+}
+
+h2 {
+  border: 1px solid black;
+}
+/*HEADER*/
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-grow: 1
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: aquamarine;
+}
+
+.nav-bar {
+  padding-right: 40px;
+  }
+}
+
+/*BODY*/
+
+.body-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/*LEFT COLUMN*/
+
+.left {
+  background: blue;
+  width: 50%;
+  align-items: flex;
+}
+
+.drinks-image {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.drinks {
+font-size: 20px;
+font-weight: bold;
+color: white;
+text-align: center;
+}
+
+.orca, burger, fbi {
+font-size: 20px;
+font-weight: bold;
+color: white;
+text-align: center;
+}
+
+.earth {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+font-size: 20px;
+font-weight: bold;
+color: white;
+text-align: center;
+text-align: top;
+}
+
+.camera {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+font-size: 20px;
+font-weight: bold;
+color: white;
+text-align: center;
+text-align: top;
+}
+
+/*CENTRE COLUMN*/
+
+.center {
+  background: green;
+  width: 25%;
+}
+
+.brooklyn {
+}
+
+
+/*RIGHT COLUMN*/
+
+.right {
+  background: orange;
+  width: 25%;
+}
+
+.cookie {
+  background: orange;
+  width: 25%;
+}
+
+.news-bites {
+  background: orange;
+  width: 25%;
+}
+
+.blank {
+  background: orange;
+  width: 25%;
+}
