@@ -8,43 +8,60 @@ body, html {
 
 div {
   border: 1px solid black;
-}
+  }
 
 h2 {
-  border: 1px solid black;
+  font: verdana;
+  color: black;
+  align: left;
+  font-size: 20px;
 }
-/*HEADER*/
 
-.header {
-  display: flex;
-  align-items: center;
-  flex-grow: 1
-  font-family: verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color: aquamarine;
+/*TOP HEADER SECTION*/
+
+.header-container, logo {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-grow:8;
+align-items: center;
+font-family: verdana;
+font-size: 14px;
+font-weight: bold;
+color: aquamarine;
 }
 
 .nav-bar {
-  padding-right: 40px;
-  }
+display: inline-block;
+align-items: center;
+justify-content: space-between;
+flex-grow: 8;
+font-family: verdana;
+font-size: 14px;
+font-weight: bold;
+color: black;
 }
+
+
+
+/*MAIN BODY SECTION*/
 
 /*BODY*/
 
 .body-container {
-  width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /*LEFT COLUMN*/
 
-.left {
-  background: blue;
-  width: 50%;
-  align-items: flex;
+.left-column{
+  display: flex;
+  flex-direction: column;
+  background: lightblue;
+  width: 630px;
 }
 
 .drinks-image {
@@ -62,14 +79,14 @@ color: white;
 text-align: center;
 }
 
-.orca, burger, fbi {
+.orca
 font-size: 20px;
 font-weight: bold;
 color: white;
 text-align: center;
 }
 
-.earth {
+.earth-image {
 background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 font-size: 20px;
 font-weight: bold;
@@ -78,7 +95,7 @@ text-align: center;
 text-align: top;
 }
 
-.camera {
+.camera-image {
 background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
 font-size: 20px;
 font-weight: bold;
@@ -90,11 +107,9 @@ text-align: top;
 /*CENTRE COLUMN*/
 
 .center {
+  flex-direction: column;
   background: green;
-  width: 25%;
-}
-
-.brooklyn {
+  width: 300px;
 }
 
 
@@ -102,12 +117,12 @@ text-align: top;
 
 .right {
   background: orange;
-  width: 25%;
+  width: 240px;
 }
 
 .cookie {
   background: orange;
-  width: 25%;
+  width: 240px;
 }
 
 .news-bites {
